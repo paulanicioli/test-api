@@ -10,9 +10,9 @@ app.use(function(req, res, next) {
     next();
   });
   
-app.get('/api', 
+app.get('/', 
        async (req, res, next) => {
-    res.set('Access-Control-Allow-Origin', 'localhost:3000');
+    // res.set('Access-Control-Allow-Origin', 'localhost:3000');
     try {
       const message_api = `You successfully reached this API! There is no info just yet, but come back soon!`
 
