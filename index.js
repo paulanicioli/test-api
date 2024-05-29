@@ -10,7 +10,7 @@ app.use(function(req, res, next) {
     next();
   });
   
-app.use('/', 
+app.get('/', 
        async (req, res, next) => {
     // res.set('Access-Control-Allow-Origin', 'localhost:3000');
     try {
